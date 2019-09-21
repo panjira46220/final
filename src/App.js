@@ -58,7 +58,7 @@ class App extends React.Component {
         <div>ครั้งที่ {this.state.attempt}</div>
         {
           this.state.completed && <h4>Complete</h4>
-        }
+        }git
       </div>
     )
   }
