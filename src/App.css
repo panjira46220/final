@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+.card {
+  display: inline-block;
+  text-align: center;
+  width: 3em;
+  font-size: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: 1em;
+  user-select: none;
+  color: aliceblue;
+  background-color: crimson;
+ }
+ 
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #0000DD;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #990033;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.activeCard {
+  color: #FF99FF	;
+  background: #000000;
+ }
+body{
+ background-image: url('01.jpg');
+ height: 100%;
+ width: 100%;
+}
+h2{
+  color: #CC3300		;
+}
+h4{
+  color: #8B008B		;
+  font-size: 50px;
+  text-align: center;
+  background-color: cornsilk;
+  background-image: url('02.jpg');
+}
